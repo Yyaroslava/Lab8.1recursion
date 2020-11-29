@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab8.1rec", "Lab8.1rec.vcxproj", "{52FEEF9C-E82C-4F04-92AC-34850D72E0A4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest8.1recursion", "..\UnitTest8.1recursion\UnitTest8.1recursion.vcxproj", "{FC2A6BC0-95CE-4A43-A76C-0D8B4D0D9F9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{52FEEF9C-E82C-4F04-92AC-34850D72E0A4}.Release|x64.Build.0 = Release|x64
 		{52FEEF9C-E82C-4F04-92AC-34850D72E0A4}.Release|x86.ActiveCfg = Release|Win32
 		{52FEEF9C-E82C-4F04-92AC-34850D72E0A4}.Release|x86.Build.0 = Release|Win32
+		{FC2A6BC0-95CE-4A43-A76C-0D8B4D0D9F9A}.Debug|x64.ActiveCfg = Debug|x64
+		{FC2A6BC0-95CE-4A43-A76C-0D8B4D0D9F9A}.Debug|x64.Build.0 = Debug|x64
+		{FC2A6BC0-95CE-4A43-A76C-0D8B4D0D9F9A}.Debug|x86.ActiveCfg = Debug|Win32
+		{FC2A6BC0-95CE-4A43-A76C-0D8B4D0D9F9A}.Debug|x86.Build.0 = Debug|Win32
+		{FC2A6BC0-95CE-4A43-A76C-0D8B4D0D9F9A}.Release|x64.ActiveCfg = Release|x64
+		{FC2A6BC0-95CE-4A43-A76C-0D8B4D0D9F9A}.Release|x64.Build.0 = Release|x64
+		{FC2A6BC0-95CE-4A43-A76C-0D8B4D0D9F9A}.Release|x86.ActiveCfg = Release|Win32
+		{FC2A6BC0-95CE-4A43-A76C-0D8B4D0D9F9A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
