@@ -8,11 +8,12 @@
 
 using namespace std;
 
-// c - previous character
+// c - previous character if 'a' 'b' or 'c' and 0 otherwise.
 bool Find_r(char* str, char c) {
     if (str[0] == 0) return false;
     if (str[0] == c) return true;
-    return Find_r(str + 1, str[0]);
+    if ((str[0] == 'a') || (str[0] == 'b') || (str[0] == 'c')) return Find_r(str + 1, str[0]);
+    return Find_r(str + 1, 0);
 }
 
 void Process_r(char* str, char* newStr, char &state, int &strPos, int &newStrPos) {
@@ -85,7 +86,7 @@ int main() {
     cout << "Enter string:" << endl;
     cin.getline(str, 100);
 
-    bool changed = Find_r(str,  ' ');
+    bool changed = Find_r(str,  0);
 
     char state = ' ';
     int strPos = 0;
